@@ -16,17 +16,16 @@ class Car
 {
     public function __construct(Engine engine, Tire tire)
     {
-
     }
 }
 
 class Factory
 {
-	public function createCar()
+    public function createCar()
     {
         $engine = new Engine;
-		$tire = new Tire;
+        $tire = new Tire;
         $car = new Car($engine, $tire);
-		return $car;
-	}
+        return $car;
+    }
 }
