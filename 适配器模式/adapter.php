@@ -19,7 +19,7 @@ class Adapter1 extends Person
 }
 
 //面向对象适配器
-class Adapter2 extends Person
+class Adapter2
 {
     private $ap;
 
